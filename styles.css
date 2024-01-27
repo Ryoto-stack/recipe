@@ -76,7 +76,7 @@ ul,ol {
     color: purple
 }
 
-.ingredients, .instructions {
+.ingredients, .instructions, .nutrition {
     color: hsl(30, 30%, 47%);
 }
 
@@ -88,6 +88,20 @@ span {
 }
 
 hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.nutrition p{
+    color: hsl(24, 5%, 18%);
+}
+
+.grams dl {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.grams dd {
+    margin-right: 40px;
+    color: hsl(30, 30%, 47%);
 }
